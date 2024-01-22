@@ -1,0 +1,13 @@
+package com.zettamine.spring.core.bean;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class UserRepository {
+
+	public UserRepository() {
+		
+	}
+
+	
+}

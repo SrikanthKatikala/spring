@@ -1,0 +1,15 @@
+package com.zettamine.spring.core;
+
+public class UserServices {
+
+	private UserProperties properties;
+
+	public UserServices(UserProperties properties) {
+		super();
+		this.properties = properties;
+	}
+	
+	public void printList() {
+		System.out.println("user properties: "+properties.getList());
+	}
+}

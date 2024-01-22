@@ -1,0 +1,15 @@
+package com.zettamine.spring.core;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.zettamine.spring.core.bean.User;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		//BeanFactory factory = new ClassPathXmlApplicationContext("user-bean.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("user-bean.xml");
+		
+	}
+}

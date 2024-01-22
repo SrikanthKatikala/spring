@@ -1,0 +1,25 @@
+package com.zettamine.spring.core;
+
+import java.util.List;
+
+import com.zettamine.spring.core.bean.User;
+
+public class UserProperties {
+
+	private List<User> list;
+
+	public UserProperties(List<User> list) {
+		super();
+		this.list = list;
+	}
+
+	public List<User> getList() {
+		return list;
+	}
+
+	public void setList(List<User> list) {
+		this.list = list;
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.zettamine.spring.core;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Lancher {
+
+	public static void main(String[] args) {
+		//BeanFactory factory = new ClassPathXmlApplicationContext("user-bean.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("user-bean.xml");
+		int count = context.getBeanDefinitionCount();
+		System.out.println("count: "+count);
+		
+		
+	}
+}

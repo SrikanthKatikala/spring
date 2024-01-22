@@ -1,0 +1,8 @@
+users.userList[0].firstName=John
+users.userList[0].lastName=Doe
+
+users.userList[1].firstName=Jane
+users.userList[1].lastName=Smith
+
+users.userList[2].firstName=Alice
+users.userList[2].lastName=Johnson
